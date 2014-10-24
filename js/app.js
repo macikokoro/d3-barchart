@@ -1,6 +1,12 @@
 var data = [];
 
-var numArray = [2, 4, 5, 6, 8, 10, 11, 10, 11];
+var numArray = [1, 2];
+
+function meanify(){
+  var nums = document.getElementById("integers").split('');
+  console.log(nums);
+}
+
 
 for (var i = 0; i < numArray.length; i++) {
         data.push(numArray[i]);
