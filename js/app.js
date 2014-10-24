@@ -1,10 +1,11 @@
+var meanify = function() {
 var data = [];
 
-var numArray = [2, 4, 5, 6, 8, 10, 11, 10, 11];
+var numArray = document.getElementById('integers').value.split(' ');
 
 for (var i = 0; i < numArray.length; i++) {
         data.push(numArray[i]);
-}
+  }
 
 var width = 420,
     barHeight = 20;
@@ -31,3 +32,4 @@ bar.append("text")
     .attr("y", barHeight / 2)
     .attr("dy", ".35em")
     .text(function(d) { return d; });
+}
