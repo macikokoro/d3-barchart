@@ -2,8 +2,8 @@
 
 #### Contents
 
-Master branch: bar chart example with hard coded values.
+<b>Master branch:</b> bar chart example with hard coded values.
 
-Inputify branch: bar chart receives user input and reacts to it.
+<b>Inputify branch:</b> bar chart receives user input and reacts to it.
 
-Meanify branch: calculates the mean of a set of numbers and outputs to a bar chart.
+<b>Meanify branch:</b> calculates the mean of a set of numbers and outputs to a bar chart.
